@@ -1,0 +1,271 @@
+ASSIGNMENT QUESTIONS 
+MORE-ON-CSS 
+INDEX.HTML 
+
+1. Create a navigation bar similar to the below-mentioned image. The navigation bar must contain 5
+navigation links that are properly plaved within the navigation bar using the CSS box model. The navigation
+items must change their text color on hover.
+Ans. <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+        <a href="#">Blog</a>
+        <a href="#">Login</a>
+    </nav>    
+</body>
+</html>
+
+2. Create a div ventered with an image and paragraph similar to the image mentioned below.
+Ans. <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <img src="imagee.png" alt="Full Stack Web Development">
+        <p><b>Course Name:</b>PW SKills full stack web development</p>
+    </div>
+</body>
+</html>
+
+3. Create a navigation bar similar to quesion 1. For each navigaion item, use a differen border style.
+Ans. <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="#" class="nav-1">Home</a>
+        <a href="#" class="nav-2">About Us</a>
+        <a href="#" class="nav-3">Contact</a>
+        <a href="#" class="nav-4">Blog</a>
+        <a href="#" class="nav-5">Login</a>
+        </nav>
+</body>
+</html> 
+
+4. Create a simple webpage wimh an image and make the image circular using border-radius.
+Ans. <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="Alakh-Pandey.png" alt="">
+</body>
+</html>
+
+5. Creae a simple blog websie abou Google fons. The webpage mus have he heading wih “Oswald” fon
+align cener o he page, below he heading have an image of Google fons and a paragraph abou Google
+fons in fon “Monserra” paragraph fon syle should be“monserra” font.
+Ans. <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Google Fonts</h1>
+<img src="maxresdefault.jpg" alt="">
+<p>
+Google Fonts is a library of 1513 open source font families and APIs forconvenient use via CSS and Android. The library also has delightful andbeautifully crafted icons for common actions and items. Download them for
+use in your digital products for Android, iOS, and web.
+</p>
+<p>
+Our font catalog places typography front and center, inviting users toexplore, sort, and test fonts for use in more than 135 languages. Weshowcase individual type designers and foundries, giving you valuableinformation about the typographers and their process, as well as analyticson usage and demographics. Our series of thematic collections helps you discover new fonts that have been vetted and organized by our team of designers, engineers, and collaborators, and our default sort organizes fonts based on popularity, trends, and your geographic location. You canalso create your own highly customized collections by filtering families,weights, and scripts, plus test color themes, and review sample copy.Collections can be shared, making it easy to collaborate on projects andensure typography is optimized and streamlined throughout the design andengineering process. In 2021, we added icons to our Google Fonts catalog,expanding expressive capability for our users. Our first set was theMaterial icons—delightful, beautifully crafted symbols for common
+communication needs. Download them on desktop to use them in your digitalproducts for Android, iOS, and web.
+</p>
+</body>
+</html>
+
+6. Create a simple website as mentioned in the below image. You can get the assets by visiting https://
+pwskills.com/about-us.
+Ans. <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>About us</h1>
+    <p>PW Skills' mission is to permeate through every student/professional's outlook towardsjobs and change their attitude and perspective from "How Can I Do It?" to "Of Course I Can DoIt". We aim to do this by providingexceptional upskilling courses at affordable rates, while being tech-forward so anyone,anywhere can access andimprove their ability to be successful in life.
+    </p>
+    <img src="aboutUs..png" alt="">
+</body>
+</html>
+
+7. Create  simple webpge wih  card similr to quesion number 2. The card must be semi-rnspren s
+deful nd on hovering he card must be displyed clearly. Use CSS opacity o chieve his output.
+Ans. <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img class="courseImage" src="https://cdn.pwskills.com/assets/uploads/
+thumbnails/64215310af09d6aa495682f5.jpg"
+    alt=" PW SKills web development" />
+    <p><b>Course Name:</b> PW SKills web development</p>
+</body>
+</html>
+
+8. Create a simple list of items as mentioned in the below image.
+Ans. <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Requirements</h1>
+    <ul>
+       <li>System with minimum i3 processor or better.</li>
+       <li>At least 4 GB of RAM.</li>
+       <li>Working internet connection.</li>
+       <li>Dedication to learn</li>
+</ul>
+</body>
+</html>
+
+STYLE.CSS
+
+nav {
+    background-color: cornflowerblue;
+    padding: 20px;
+}
+
+a {
+    color: white;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+a:hover {
+    color: #000;
+}
+
+img {
+    height: 200px;
+    width: 300px;
+    border-radius: 18px;
+}
+
+div {
+    margin: 0 auto;
+    background-color: #f8c42e;
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+nav {
+    background-color: cornflowerblue;
+    padding: 20px;
+}
+
+a {
+    color: white;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+a:hover {
+    color: #000;
+}
+
+.nav-1 {
+    border: 3px solid black;
+    padding: 5px;
+}
+.nav-2 {
+    border: 3px dotted black;
+    padding: 5px;
+}
+.nav-3 {
+    border: 3px dashed black;
+    padding: 5px;
+}
+.nav-4 {
+    border: 3px double black;
+    padding: 5px;
+}
+.nav-5 {
+    border: 3px groove black;
+    padding: 5px;
+}
+
+img {
+    border-radius: 50%;
+    background-color: white;
+}
+
+@import url("https://fonts.googleapis.com/css2?"
+    family=Montserrat:wght@300&family=Oswald:wght@500&display=swap")
+    ;
+h1 {
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+}
+img {
+    width: 450px;
+}
+p {
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    text-align: center;
+}
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+p {
+    font-family: "Poppins", sans-serif;
+    padding: 10px 15%;
+}
+
+.courseImage {
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+}
+div {
+    margin: 0 auto;
+    background-color: #f8c42e;
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    opacity: 0.5;
+}
+    div:hover {
+    opacity: 1;
+}
+
+li {
+    list-style-type: lower-roman;
+}
